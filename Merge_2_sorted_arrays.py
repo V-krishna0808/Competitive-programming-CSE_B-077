@@ -1,0 +1,6 @@
+n=int(input())
+arr1=list(map(int,input().split()))
+m=int(input())
+arr2=list(map(int,input().split()))
+cou=sorted(arr1+arr2)
+print(*cou)
